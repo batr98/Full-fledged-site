@@ -1,18 +1,35 @@
-import { NavLink } from "react-router-dom"
+import Header from "../components/Header.jsx"
+import Footer from "../components/Footer.jsx"
 
 function About() {
     return(
-        <div >
-            <nav>
-                <NavLink to="/">Главная</NavLink>
-                <NavLink to="/about">О нас</NavLink>
-                <NavLink to="/contact">Контакты</NavLink>
-            </nav>
-            <h1>About us</h1>
-            <p>We are acompany that scams people for money.</p><br></br>
-            <p>We have been doing this for 10 years and we are very good at it.</p>
-            
-        </div>
+        <main className="page page-about">
+            <Header />
+            <section className="page-intro">
+                <span className="eyebrow">О компании</span>
+                <h1>Мы делаем мир безопаснее, одну проверку за другой.</h1>
+                <p>Наша команда сочетает экспертные знания, технологии и практический опыт, чтобы найти мошенников и защитить пострадавших. Мы верим, что каждый человек заслуживает доверия и уверенности в цифровом мире.</p>
+            </section>
+            <section className="value-grid">
+                <article>
+                    <h3>Прозрачность</h3>
+                    <p>Отчёты понятны, без лишней терминологии и скрытых условий.</p>
+                </article>
+                <article>
+                    <h3>Оперативность</h3>
+                    <p>Реакция по каждому обращению — в течение 24 часов.</p>
+                </article>
+                <article>
+                    <h3>Ваше спокойствие</h3>
+                    <p>Работаем так, чтобы вы могли сосредоточиться на важных вещах.</p>
+                </article>
+            </section>
+            <section className="story">
+                <h2>Почему нам доверяют</h2>
+                <p>Мы объединяем силу данных и человеческую интуицию. Сначала мы тщательно анализируем информацию, затем строим план действий и сопровождаем вас до результата. Наша цель — не просто найти проблему, а помочь вам восстановить контроль.</p>
+            </section>
+            <Footer />
+        </main>
     )
 }
 export default About

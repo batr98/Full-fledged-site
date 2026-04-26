@@ -1,19 +1,27 @@
-import { NavLink } from "react-router-dom"
+import Header from "../components/Header.jsx"
+import Footer from "../components/Footer.jsx"
 
 function Contact() {
   return (
-    <div>
-      <div className="navbar">
-        <nav>
-               <NavLink to="/">Главная</NavLink>
-               <NavLink to="/about">О нас</NavLink>
-               <NavLink to="/contact">Контакты</NavLink>
-        </nav>
+    <main className="page page-contact">
+      <Header />
+      <section className="contact-hero">
+        <div>
+          <span className="eyebrow">Контакты</span>
+          <h1>Напишите нам, и мы ответим в течение рабочего дня.</h1>
+          <p>Если вы заметили подозрительный аккаунт или уже стали жертвой мошенников, мы готовы помочь — быстро, профессионально и конфиденциально.</p>
         </div>
-        <h1>if you have any questions ,you can call this phone number:</h1>
-        <p>7 777 620 2711</p>
-        
-    </div>
+        <div className="contact-card">
+          <p>Электронная почта</p>
+          <a href="mailto:support@yourcompany.com">support@yourcompany.com</a>
+          <p>Телефон</p>
+          <a href="tel:+12345678901">+1 234 567 8901</a>
+          <p>Адрес</p>
+          <a href="https://www.google.com/maps/search/123+Trust+Lane,+Safe+City,+Country" target="_blank" rel="noreferrer">123 Trust Lane, Safe City, Country</a>
+        </div>
+      </section>
+      <Footer />
+    </main>
   )
 }
 export default Contact
