@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom"
+import image from "../assets/image.png"
 
 function Home() {
     return(
@@ -8,7 +9,7 @@ function Home() {
                <NavLink to="/about">О нас</NavLink>
                <NavLink to="/contact">Контакты</NavLink>
             </nav>
-            <h1>Home page</h1>
+            <img src={image} alt="Home" />
         </div>
     )
 }
