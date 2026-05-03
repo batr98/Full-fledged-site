@@ -36,7 +36,7 @@ function Home() {
                 </section>
                 <Footer />
             </main>
-            <audio controls loop >
+            <audio autoPlay loop>
                 <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg" />
                 Ваш браузер не поддерживает аудио.
             </audio>

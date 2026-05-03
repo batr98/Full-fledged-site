@@ -9,6 +9,7 @@ function Footer() {
         <a href="/">Главная</a>
         <a href="/about">О нас</a>
         <a href="/contact">Контакты</a>
+        <a href="/stuff">Сотрудники</a>
       </div>
     </footer>
   )
