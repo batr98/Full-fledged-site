@@ -18,6 +18,8 @@ function Contact() {
           <a href="tel:+12345678901">+1 234 567 8901</a>
           <p>Адрес</p>
           <a href="https://www.google.com/maps/search/123+Trust+Lane,+Safe+City,+Country" target="_blank" rel="noreferrer">123 Trust Lane, Safe City, Country</a>
+          <p>Telegram</p>
+          <a href="https://t.me/+77776202711" target="_blank" rel="noreferrer"> Telegram </a>
         </div>
       </section>
       <Footer />
