@@ -1,3 +1,13 @@
+
+
+
+
+
+
+
+
+
+
 body{
   margin: 0;
   
@@ -51,6 +61,11 @@ body{
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
+.hero-text .protection {
+  color: #000000;
+  font-weight: 800;
+}
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
@@ -63,7 +78,7 @@ body{
   justify-content: center;
   min-width: 180px;
   padding: 14px 22px;
-  border-radius: 999px;
+  border-radius: 10px;
   background: var(--accent);
   color: #fff;
   text-decoration: none;
@@ -328,4 +343,23 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
+}
+.language-switch {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.language-switch button {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-h);
+  padding: 6px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.language-switch button.active {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent-border);
 }

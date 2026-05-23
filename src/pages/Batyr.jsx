@@ -2,14 +2,17 @@
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 import me from "../assets/me.png"
+import { useTranslation } from "../i18n"
 
 function Batyr() {
+   const { t } = useTranslation()
+
    return(
         <div>
             <Header/>
                <img src={me} alt="My photo" />
-               <h1>Main stuff</h1>
-               <p>My name is Batyr. I am a web-site writer. I know programming languages like Python, React, and JavaScript.</p>
+               <h1>{t("batyr.title")}</h1>
+               <p>{t("batyr.description")}</p>
             <Footer />
         </div>
    )
