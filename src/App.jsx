@@ -4,6 +4,7 @@ import About from "./pages/About"
 import Contact from "./pages/Contact"
 import Stuff from "./pages/Stuff"
 import Batyr from "./pages/batyr"
+import Faq from "./pages/FAQ"
 import { LanguageProvider } from "./i18n"
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/stuff" element={<Stuff />} />
           <Route path="/batyr" element={<Batyr />} />
+          <Route path="/faq" element={<Faq />} />
         </Routes>
       </BrowserRouter>
     </LanguageProvider>

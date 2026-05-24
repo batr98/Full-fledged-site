@@ -7,6 +7,7 @@ const translations = {
       about: "О нас",
       contact: "Контакты",
       stuff: "Сотрудники",
+      faq: "Вопросы",
       brand: "TrustGuard"
     },
     footer: {
@@ -14,7 +15,9 @@ const translations = {
       home: "Главная",
       about: "О нас",
       contact: "Контакты",
-      stuff: "Сотрудники"
+      stuff: "Сотрудники",
+      faq: "Вопросы",
+      batyr: "Батыр"
     },
     home: {
       eyebrow: "Надёжная защита",
@@ -88,6 +91,7 @@ const translations = {
       about: "About",
       contact: "Contact",
       stuff: "Team",
+      faq: "FAQ",
       brand: "TrustGuard"
     },
     footer: {
@@ -95,7 +99,9 @@ const translations = {
       home: "Home",
       about: "About",
       contact: "Contact",
-      stuff: "Team"
+      stuff: "Team",
+      faq: "FAQ",
+      batyr: "Batyr"
     },
     home: {
       eyebrow: "Reliable protection",
@@ -169,6 +175,7 @@ const translations = {
       about: "Біз туралы",
       contact: "Байланыс",
       stuff: "Қызметкерлер",
+      faq: "Сұрақтар",
       brand: "TrustGuard"
     },
     footer: {
@@ -176,7 +183,9 @@ const translations = {
       home: "Басты бет",
       about: "Біз туралы",
       contact: "Байланыс",
-      stuff: "Қызметкерлер"
+      stuff: "Қызметкерлер",
+      faq: "Сұрақтар",
+      batyr: "Батыр"
     },
     home: {
       eyebrow: "Сенімді қорғау",
@@ -263,7 +272,15 @@ function getTranslation(language, path) {
 }
 
 export function LanguageProvider({ children }) {
-  const [language, setLanguage] = useState("ru")
+  const [language, setLanguageState] = useState(() => {
+    return localStorage.getItem("language") || "ru"
+  })
+
+  function setLanguage(nextLanguage) {
+    localStorage.setItem("language", nextLanguage)
+    setLanguageState(nextLanguage)
+    document.documentElement.lang = nextLanguage
+  }
 
   const value = useMemo(
     () => ({
@@ -271,9 +288,9 @@ export function LanguageProvider({ children }) {
       setLanguage,
       t: (path) => getTranslation(language, path),
       languages: [
-        { code: "ru", label: "РУС" },
+        { code: "kk", label: "ҚАЗ" },
         { code: "en", label: "ENG" },
-        { code: "kk", label: "ҚАЗ" }
+        { code: "ru", label: "РУС" }
       ]
     }),
     [language]
