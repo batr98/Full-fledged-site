@@ -1,3 +1,20 @@
+.case-card {
+  padding: 28px;
+  border-radius: 24px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+.case-card h3 {
+  margin: 0 0 12px;
+  color: var(--text-h);
+}
+
+.case-card p {
+  margin: 0;
+  color: var(--text);
+}
 body{
   margin: 0;
   background-color: var(--bg);

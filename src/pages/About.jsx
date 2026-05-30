@@ -14,15 +14,15 @@ function About() {
                 <p>{t("about.intro")}</p>
             </section>
             <section className="value-grid">
-                <article>
+                <article className="value">
                     <h3>{t("about.value1Title")}</h3>
                     <p>{t("about.value1Text")}</p>
                 </article>
-                <article>
+                <article className="grippping">
                     <h3>{t("about.value2Title")}</h3>
                     <p>{t("about.value2Text")}</p>
                 </article>
-                <article>
+                <article className="intriguing">
                     <h3>{t("about.value3Title")}</h3>
                     <p>{t("about.value3Text")}</p>
                 </article>
@@ -30,18 +30,6 @@ function About() {
             <section className="story">
                 <h2>{t("about.storyTitle")}</h2>
                 <p>{t("about.storyText")}</p>
-            </section>
-            <section className="cases">
-                <h2>{t("about.casesTitle")}</h2>
-                <p>{t("about.casesIntro")}</p>
-                <article>
-                    <h3>{t("about.case1Title")}</h3>
-                    <p>{t("about.case1Text")}</p>
-                    <h4>{t("about.case2Title")}</h4>
-                    <p>{t("about.case2Text")}</p>
-                    <h5>{t("about.case3Title")}</h5>
-                    <p>{t("about.case3Text")}</p>
-                </article>
             </section>
             <Footer />
         </main>

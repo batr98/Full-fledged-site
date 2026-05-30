@@ -38,6 +38,9 @@ function Header() {
         <NavLink to="/stuff" end className={({ isActive }) => isActive ? "active" : ""}>
           {t("header.stuff")}
         </NavLink>
+        <NavLink to="/cases" end className={({ isActive }) => isActive ? "active" : ""}>
+          {t("header.cases")}
+        </NavLink>
       </nav>
       <div style={{ display: 'flex', gap: 12, alignItems: 'center' }}>
         <div className="language-switch">
