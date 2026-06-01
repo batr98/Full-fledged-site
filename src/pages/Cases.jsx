@@ -28,6 +28,18 @@ function Cases() {
                             <h3>{t("about.case3Title")}</h3>
                             <p>{t("about.case3Text")}</p>
                         </article>
+                        <article className="case-card">
+                            <h3>{t("about.case4Title")}</h3>
+                            <p>{t("about.case4Text")}</p>
+                        </article>
+                        <article className="case-card">
+                            <h3>{t("about.case5Title")}</h3>
+                            <p>{t("about.case5Text")}</p>
+                        </article>
+                        <article className="case-card">
+                            <h3>{t("about.case6Title")}</h3>
+                            <p>{t("about.case6Text")}</p>
+                        </article>
                     </div>
                 </section>
             </main>

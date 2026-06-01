@@ -51,7 +51,13 @@ const translations = {
       case2Title: "Кейс 2: Предотвратили масштабную фишинговую атаку",
       case2Text: "Мы выявили и заблокировали масштабный фишинговый проект, который направлялся на тысячи пользователей. Наша команда работала круглосуточно, чтобы минимизировать ущерб и обеспечить безопасность наших клиентов.",
       case3Title: "Кейс 3: Помогли жертве вернуть украденные средства",
-      case3Text: "Мы помогли жертве мошенничества вернуть украденные средства, работая с банком и правоохранительными органами. Благодаря нашей поддержке, клиент смог восстановить финансовую стабильность и избежать дальнейших потерь."
+      case3Text: "Мы помогли жертве мошенничества вернуть украденные средства, работая с банком и правоохранительными органами. Благодаря нашей поддержке, клиент смог восстановить финансовую стабильность и избежать дальнейших потерь.",
+      case4Title: "Кейс 4: Защитили бизнес от социальной инженерии",
+      case4Text: "Мы разоблачили мошенническую кампанию, направленную на получение доступа к корпоративным аккаунтам. Благодаря своевременному вмешательству команда компании сохранила конфиденциальные данные и избежала крупного ущерба.",
+      case5Title: "Кейс 5: Восстановили аккаунт после кражи личности",
+      case5Text: "Мы помогли клиенту восстановить доступ к взломанному профилю и заблокировать дальнейшие попытки мошенников. В итоге работа закончилась полным возвратом контроля и восстановлением репутации.",
+      case6Title: "Кейс 6: Выявили сложную финансовую аферу",
+      case6Text: "Наши специалисты обнаружили цепочку поддельных транзакций и остановили перевод средств. Это позволило клиенту сохранить ключевые активы и укрепить внутренние процедуры безопасности."
     },
     contact: {
       eyebrow: "Контакты",
@@ -135,7 +141,13 @@ const translations = {
       case2Title: "Case 2: Prevented a large phishing attack",
       case2Text: "We identified and blocked a large phishing project targeting thousands of users. Our team worked around the clock to minimize damage and ensure client safety.",
       case3Title: "Case 3: Helped a victim recover stolen funds",
-      case3Text: "We helped a fraud victim recover stolen funds by working with the bank and law enforcement. With our support, the client restored financial stability and avoided further losses."
+      case3Text: "We helped a fraud victim recover stolen funds by working with the bank and law enforcement. With our support, the client restored financial stability and avoided further losses.",
+      case4Title: "Case 4: Protected a business from social engineering",
+      case4Text: "We exposed a fraudulent campaign aimed at seizing corporate account access. Timely intervention helped the team preserve confidential data and avoid major damage.",
+      case5Title: "Case 5: Restored an account after identity theft",
+      case5Text: "We helped the client regain control of a compromised profile and blocked further scam attempts. The work ended with full account recovery and restored trust.",
+      case6Title: "Case 6: Uncovered an elaborate financial scam",
+      case6Text: "Our specialists detected a chain of fake transactions and stopped the funds transfer. This preserved the client’s key assets and strengthened internal security procedures."
     },
     contact: {
       eyebrow: "Contact",
@@ -219,7 +231,13 @@ const translations = {
       case2Title: "Кейс 2: Көлемді фишингтік шабуылды болдырмадық",
       case2Text: "Біз мыңдаған пайдаланушыларға бағытталған көлемді фишингтік жобаны анықтап, блоктадық. Командамыз зиянды азайту және клиенттердің қауіпсіздігін қамтамасыз ету үшін тәулік бойы жұмыс істеді.",
       case3Title: "Кейс 3: Құрбаны ұрланған ақшаны қайтаруға көмектестік",
-      case3Text: "Біз банктен және құқық қорғау органдарынан көмек алып, алаяқтық құрбанына ұрланған қаражатын қайтаруға көмектестік. Қолдауымыздың арқасында клиент қаржылық тұрақтылығын қалпына келтіріп, одан әрі шығыннан қорғай алды."
+      case3Text: "Біз банктен және құқық қорғау органдарынан көмек алып, алаяқтық құрбанына ұрланған қаражатын қайтаруға көмектестік. Қолдауымыздың арқасында клиент қаржылық тұрақтылығын қалпына келтіріп, одан әрі шығыннан қорғай алды.",
+      case4Title: "Кейс 4: Бизнесті әлеуметтік инженериядан қорғадық",
+      case4Text: "Біз корпоративтік есептік жазбаларға қол жеткізуге бағытталған алаяқтық науқанын анықтадық. Уақытында әрекет ету командаға конфиденциалды деректерді сақтауға және ірі зияннан аулақ болуға көмектесті.",
+      case5Title: "Кейс 5: Жеке бас ұрлығынан кейінгі есепті қалпына келтірдік",
+      case5Text: "Біз клиентке бұзылған профильге бақылауды қайтаруға көмектесіп, келесі алаяқтық әрекеттерді тоқтаттық. Жұмыс толық есепті қалпына келтіру және сенімділік қайта орнату нәтижесімен аяқталды.",
+      case6Title: "Кейс 6: Күрделі қаржылық алаяқтықты анықтадық",
+      case6Text: "Біздің мамандар жалған транзакциялар тізбегін тауып, қаражат аударымын тоқтатты. Бұл клиенттің негізгі активтерін сақтап қалуға және ішкі қауіпсіздік процедураларын нығайтуға мүмкіндік берді."
     },
     contact: {
       eyebrow: "Байланыс",
