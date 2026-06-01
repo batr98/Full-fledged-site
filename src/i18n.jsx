@@ -66,7 +66,7 @@ const translations = {
       phoneLabel: "Телефон",
       phoneNumber: "+1 234 567 8901",
       addressLabel: "Адрес",
-      addressText: "123 Trust Lane, Safe City, Country",
+      addressText: "Проспект Мангилик Ель 53,Астана",
       telegramLabel: "Telegram",
       telegramText: "Telegram"
     },
@@ -150,7 +150,7 @@ const translations = {
       phoneLabel: "Phone",
       phoneNumber: "+1 234 567 8901",
       addressLabel: "Address",
-      addressText: "123 Trust Lane, Safe City, Country",
+      addressText: "Mangilik El 53 Avenue,Astana",
       telegramLabel: "Telegram",
       telegramText: "Telegram"
     },
@@ -234,7 +234,7 @@ const translations = {
       phoneLabel: "Телефон",
       phoneNumber: "+1 234 567 8901",
       addressLabel: "Мекенжай",
-      addressText: "123 Trust Lane, Safe City, Country",
+      addressText: "Мәңгілік Ел даңғылы 53,Aстана",
       telegramLabel: "Telegram",
       telegramText: "Telegram"
     },

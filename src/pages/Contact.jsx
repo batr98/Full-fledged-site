@@ -24,7 +24,7 @@ function Contact() {
           <p>{t("contact.phoneLabel")}</p>
           <a href={`tel:${t("contact.phoneNumber").replace(/\s+/g, "")}`}>{t("contact.phoneNumber")}</a>
           <p>{t("contact.addressLabel")}</p>
-          <a href="https://www.google.com/maps/search/123+Trust+Lane,+Safe+City,+Country" target="_blank" rel="noreferrer">{t("contact.addressText")}</a>
+          <a href="https://www.google.com/maps/search/Mangilik +El+Avenue+53,+Astana,+Kazakhstan" target="_blank" rel="noreferrer">{t("contact.addressText")}</a>
           <p>{t("contact.telegramLabel")}</p>
           <a href="https://t.me/+77776202711" target="_blank" rel="noreferrer">{t("contact.telegramText")}</a>
         </div>
