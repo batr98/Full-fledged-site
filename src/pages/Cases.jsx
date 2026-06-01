@@ -40,6 +40,7 @@ function Cases() {
                             <h3>{t("about.case6Title")}</h3>
                             <p>{t("about.case6Text")}</p>
                         </article>
+                        <img src={AntiFraud}  alt="Anti-Fraud" />
                     </div>
                 </section>
             </main>

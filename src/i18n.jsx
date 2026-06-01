@@ -61,8 +61,8 @@ const translations = {
     },
     contact: {
       eyebrow: "Контакты",
-      title: "Напишите нам, и мы ответим в течение рабочего дня.",
-      intro: "Если вы заметили подозрительный аккаунт или уже стали жертвой мошенников, мы готовы помочь — быстро, профессионально и конфиденциально.",
+      title: "Напишите нам прямо сейчас, опишите вашу ситуацию максимально подробно, и мы сделаем всё возможное, чтобы ответить в течение рабочего дня, предоставив профессиональную помощь, безопасные рекомендации и сопровождение на каждом этапе.",
+      intro: "Если вы заметили подозрительный аккаунт, подозрительную активность или уже стали жертвой мошенников, наша команда готова подключиться незамедлительно: мы предлагаем глубокий анализ, практические шаги для защиты, консультирование по дальнейшим действиям, помощь в восстановлении контроля и информацию о том, как избежать повторных атак в будущем.",
       emailLabel: "Электронная почта",
       emailAddress: "support@yourcompany.com",
       requestLabel: "Оставить заявку",
@@ -151,8 +151,8 @@ const translations = {
     },
     contact: {
       eyebrow: "Contact",
-      title: "Write to us and we will reply during the business day.",
-      intro: "If you noticed a suspicious account or have already become a victim of fraud, we are ready to help — fast, professional, and confidential.",
+      title: "Write to us now with as much detail as possible about your situation, and we will do our best to reply during the business day with professional guidance, secure recommendations, and support at every step.",
+      intro: "If you have noticed a suspicious account, suspicious activity, or have already become a victim of fraud, our team is ready to respond immediately with a thorough analysis, practical protection steps, consultation on next actions, help restoring control, and advice on how to prevent future attacks.",
       emailLabel: "Email",
       emailAddress: "support@yourcompany.com",
       requestLabel: "Leave a request",
@@ -241,8 +241,8 @@ const translations = {
     },
     contact: {
       eyebrow: "Байланыс",
-      title: "Бізге жазыңыз, және біз жұмыс күні ішінде жауап береміз.",
-      intro: "Егер сіз күдікті аккаунтты байқасаңыз немесе алаяқтық құрбаны болсаңыз, біз көмектесуге дайынбыз — тез, кәсіби және құпиялылықпен.",
+      title: "Әрекетіңізді мүмкіндігінше толық сипаттап, бізге дәл қазір жазыңыз, біз жұмыс күні ішінде кәсіби нұсқаулықтар, қауіпсіз ұсыныстар және әр кезеңде қолдау көрсету үшін бар күшімізді саламыз.",
+      intro: "Егер сіз күдікті аккаунтты, күдікті әрекетті байқасаңыз немесе алаяқтық құрбанына айналған болсаңыз, біздің команда дереу жауап беруге дайын: жан-жақты талдау, қорғану қадамдары, келесі әрекеттер жөніндегі кеңес, бақылауды қалпына келтіруге көмектесу және болашақ шабуылдардан қалай сақтану керек туралы ақпарат.",
       emailLabel: "Электрондық пошта",
       emailAddress: "support@yourcompany.com",
       requestLabel: "Өтінім қалдыру",
