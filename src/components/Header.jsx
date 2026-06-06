@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom"
 import { useTranslation } from "../i18n"
 import { useEffect, useState } from "react"
+import { getCurrentUser, logoutUser } from "../auth"
 
 function Header() {
   const { t, language, setLanguage, languages } = useTranslation()
@@ -11,13 +12,30 @@ function Header() {
       return "light"
     }
   })
+  const [currentUser, setCurrentUser] = useState(() => getCurrentUser())
 
   useEffect(() => {
     try {
       document.documentElement.setAttribute("data-theme", theme)
       localStorage.setItem("theme", theme)
-    } catch {}
+    } catch {
+      // localStorage can be unavailable in restricted browser modes.
+    }
   }, [theme])
+
+  useEffect(() => {
+    function syncUser() {
+      setCurrentUser(getCurrentUser())
+    }
+
+    window.addEventListener("auth-change", syncUser)
+    window.addEventListener("storage", syncUser)
+
+    return () => {
+      window.removeEventListener("auth-change", syncUser)
+      window.removeEventListener("storage", syncUser)
+    }
+  }, [])
 
   return (
     <header className="site-header">
@@ -41,8 +59,19 @@ function Header() {
         <NavLink to="/cases" end className={({ isActive }) => isActive ? "active" : ""}>
           {t("header.cases")}
         </NavLink>
+        {!currentUser && (
+          <NavLink to="/login" className={({ isActive }) => isActive ? "active" : ""}>
+            Вход
+          </NavLink>
+        )}
       </nav>
       <div style={{ display: 'flex', gap: 12, alignItems: 'center' }}>
+        {currentUser && (
+          <div className="auth-status">
+            <span>{currentUser.name}</span>
+            <button type="button" onClick={logoutUser}>Выйти</button>
+          </div>
+        )}
         <div className="language-switch">
           {languages.map((item) => (
             <button
