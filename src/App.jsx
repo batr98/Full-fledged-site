@@ -20,6 +20,8 @@ function App() {
           <Route path="/batyr" element={<Batyr />} />
           <Route path="/faq" element={<Faq />} />
           <Route path="/cases" element={<Cases/>}/>
+          <Route path="/login" element={<Login />}/>
+          <Route path="/register" element={<Register />}/>
         </Routes>
       </BrowserRouter>
     </LanguageProvider>
