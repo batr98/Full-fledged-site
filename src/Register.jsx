@@ -1,8 +1,8 @@
 import { Link, useNavigate } from "react-router-dom"
 import { useState } from "react"
-import Header from "../components/Header.jsx"
-import Footer from "../components/Footer.jsx"
-import { registerUser } from "../auth.js"
+import Header from "./components/Header.jsx"
+import Footer from "./components/Footer.jsx"
+import { registerUser } from "./Auth.js"
 
 function Register() {
   const navigate = useNavigate()

@@ -6,6 +6,8 @@ import Stuff from "./pages/Stuff"
 import Batyr from "./pages/Batyr"
 import Faq from "./pages/Faq"
 import Cases from "./pages/Cases"
+import Login from "./Login"
+import Register from "./Register"
 import { LanguageProvider } from "./i18n"
 
 function App() {

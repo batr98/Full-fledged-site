@@ -8,6 +8,7 @@ const translations = {
       contact: "Контакты",
       stuff: "Сотрудники",
       faq: "Вопросы",
+      cases: "Кейсы",
       brand: "TrustGuard"
     },
     footer: {
@@ -98,6 +99,7 @@ const translations = {
       contact: "Contact",
       stuff: "Team",
       faq: "FAQ",
+      cases: "Cases",
       brand: "TrustGuard"
     },
     footer: {
@@ -188,6 +190,7 @@ const translations = {
       contact: "Байланыс",
       stuff: "Қызметкерлер",
       faq: "Сұрақтар",
+      cases: "Кейстер",
       brand: "TrustGuard"
     },
     footer: {

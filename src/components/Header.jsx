@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom"
 import { useTranslation } from "../i18n"
 import { useEffect, useState } from "react"
-import { getCurrentUser, logoutUser } from "../auth"
+import { getCurrentUser, logoutUser } from "../Auth"
 
 function Header() {
   const { t, language, setLanguage, languages } = useTranslation()
